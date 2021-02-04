@@ -1,6 +1,4 @@
-a = float(input("Ievadiet ābolu svaru KG: "))
-b = float(input("Ievadiet cukura svaru KG: "))
-ck = c * 0.79
-ak = a * 0.80
-ai = ck + ak
-print("Summa:" + str(ai) + "EUR")
+def ievarijums(aboli_svars, cukurs_uz_kg):
+    izmaksa_kg = 0.75 * cukurs_uz_kg
+    izmaksas = izmaksa_kg * aboli_svars
+    print(izmaksas)
